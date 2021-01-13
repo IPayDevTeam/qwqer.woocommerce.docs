@@ -1,0 +1,15 @@
+{
+  "name": "qwqer.woocommerce.docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:IPayDevTeam/qwqer.woocommerce.docs.git",
+  "author": "Boris <bk@berweb.org>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "docsify serve ./docs --open"
+  },
+  "devDependencies": {
+    "docsify-cli": "^4.4.2"
+  }
+}

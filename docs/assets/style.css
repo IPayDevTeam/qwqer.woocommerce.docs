@@ -1,0 +1,77 @@
+:root {
+  --theme-hue: 250;
+  --theme-saturation: 50%;
+  --theme-lightness : 64%;
+
+  --sidebar-nav-strong-margin: 1.5em 0 0.5em;
+
+  --sidebar-width: 20rem;
+  --sidebar-nav-link-text-decoration--active: none;
+  --sidebar-nav-link-text-decoration--hover: none;
+  --sidebar-nav-link-transition: all var(--duration-fast);
+  --sidebar-nav-link-color--hover: hsl(var(--mono-hue), var(--mono-saturation), 64%);
+
+  --sidebar-padding: 0 25px;
+
+
+  --cover-background-color: #5c399d;
+  --cover-background-image: url("https://qwqer.eu/img/merchant_bg.7692448c.jpg");
+
+  --cover-heading-color: #dbccff;
+  --cover-heading-font-size-max: 1rem;
+  --cover-heading-font-weight: 600;
+
+  --cover-blockquote-color: #a183d9;
+}
+
+.sidebar .app-name {
+  margin-bottom: .5rem;
+  transition: all var(--duration-fast);
+}
+.sidebar .app-name:hover {
+  opacity: .7;
+}
+.sidebar .app-name img {
+  width: 35%;
+}
+.sidebar .app-name h3 {
+  margin-top: .3rem;
+  margin-bottom: 0;
+}
+.sidebar .app-name-link {
+  display: block;
+}
+.sidebar .app-name .sub {
+  font-size: .9rem;
+  color: var(--sidebar-nav-link-color);
+  opacity: .5;
+}
+
+.tech-image {
+  width: 17px;
+}
+
+.top-1 {
+  position: relative;
+  top: 1px;
+}
+
+.footer-menu {
+  font-size: .9rem;
+  margin-top: 1.2rem;
+}
+
+.footer-menu--separator {
+  margin: 2rem -25px;
+  background-color: var(--sidebar-border-color);
+  height: 10px;
+}
+
+.custom-image {
+  border: 1px solid var(--mono-tint2);
+  padding: .3rem;
+}
+.custom-image.medium-zoom-image--opened {
+  border: none;
+  padding: 0;
+}
